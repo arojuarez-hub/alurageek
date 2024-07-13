@@ -2,13 +2,13 @@
   "productos": [
     {
       "id": "63cd",
-      "nombre": "Brook",
+      "nombre": "Usopp",
       "precio": 35,
       "imagen": "C:\\fakepath\\brook.jpeg"
     },
     {
       "id": "b008",
-      "nombre": "Brook",
+      "nombre": "Nami",
       "precio": 35,
       "imagen": "C:\\fakepath\\brook.jpeg"
     }
