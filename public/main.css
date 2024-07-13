@@ -1,0 +1,38 @@
+@import url(./styles/reset.css);
+@import url(./styles/header.css);
+@import url(./styles/main.css);
+@import url(./styles/productos.css);
+@import url(./styles/formulario.css);
+@import url(./styles/footer.css);
+
+:root {
+    --fuente-principal: 'Press Start 2P', system-ui;
+    --fuente-secundaria: 'IBM Plex Mono', monospace;
+    --fuente-tamaño: 400;
+    --color-uno: #8C0375;
+    --color-dos: #C004D9;
+    --color-tres: #9303A6;
+    --color-cuatro: #5D04D9;
+    --color-cinco: #03318C;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Press Start 2P';
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+ol, ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, p, input, textarea, button {
+    border: none;
+    outline: none;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Fonte del Proyecto Press Start 2P -->
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <!-- Fonte del Proyecto IBM Plex Mono -->
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Alura Geek</title>
+</head>
+
+<body>
+    <!-- Header  -->
+    <header>
+        <nav class="header">
+            <img src="./img/corazones.png" alt="corazones">
+            <h1>AluraGeek</h1>
+        </nav>
+    </header>
+
+    <main>
+        <section class="container-productos">
+            <h2>MIS PRODUCTOS: ONE PIECE</h2>
+            <div class="mis-productos">
+                <!-- Productos que se añaden -->
+<!--                 <div class="card">
+                    <img src="./img/luffy.jpeg" />
+                    <div class="card-container--info">
+                      <p>Luffy</p>
+                      <div class="card-container--precio">
+                        <p>$ 100,00</p>
+                        <img src="./img/boton-borrar.png" />
+                      </div>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+
+        <section class="container-formulario">
+            <h2><span>AGREGAR PRODUCTO: </span></h2>
+            <div class="formulario">
+                <form id="uploadForm" action="/upload" method="POST" enctype="multipart/form-data">
+                    <input class="producto-nombre" type="text" name="nombre" placeholder="nombre..." maxlength="50">
+                    <input class="producto-precio" type="number" name="precio" placeholder="precio...">
+                    <input class="producto-imagen" type="file" name="imagen" accept=".jpeg, .jpg, .png, .gif">
+                    <div class="btn-form">
+                        <button type="submit" class="boton-enviar">Enviar</button>
+                        <button type="reset" class="boton-limpiar">Limpiar</button>
+                    </div>
+                </form>                
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <div class="footer">
+            <img src="./img/corazones.png" alt="corazones">
+            <h2>AluraGeek</h2>
+        </div>
+        <p>Desarrollado por Arturo Juárez</p>
+        <p>Alura Latam - 2024 Oracle Next Education</p>
+    </footer>
+    
+    <script src="./js/api.js" type="module"></script>
+    <script src="./js/listarProductos.js" type="module"></script>
+    <script src="./js/crearProductos.js" type="module"></script>
+    <script src="./js/script.js" type="module"></script>
+
+</body>
+
+</html>

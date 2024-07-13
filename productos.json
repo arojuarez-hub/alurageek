@@ -1,0 +1,16 @@
+{
+  "productos": [
+    {
+      "id": "63cd",
+      "nombre": "Brook",
+      "precio": 35,
+      "imagen": "C:\\fakepath\\brook.jpeg"
+    },
+    {
+      "id": "b008",
+      "nombre": "Brook",
+      "precio": 35,
+      "imagen": "C:\\fakepath\\brook.jpeg"
+    }
+  ]
+}
